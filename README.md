@@ -29,10 +29,10 @@ https://sites.google.com/site/link2yulei/publications
 TV (C. Li, “An efficient algorithm for total variation regularization with applications to the single pixel camera and compressive sensing,” Master’s thesis, Rice University, Houston, Texas, 2009.) https://www.caam.rice.edu/~optimization/L1/TVAL3/
 
 ReconNet (K. Kulkarni, S. Lohit, P. Turaga, R. Kerviche, and A. Ashok, “Reconnet: Non-iterative reconstruction of images from compressively sensed measurements,” in IEEE Conf. on CVPR, June 2016.)
- https://github.com/KuldeepKulkarni/ReconNet
+https://github.com/KuldeepKulkarni/ReconNet
 
 DR2Net (H. Yao, F. Dai, D. Zhang, Y. Ma, S. Zhang, and Y. Zhang, “Dr2-net: Deep residual reconstruction network for image compressive sensing,” arXiv preprint arXiv:1702.05743, 2017.)
-https://github.com/coldrainyht/caffe dr2/tree/master/DR2
+https://github.com/coldrainyht/caffe_dr2/tree/master/DR2
 
 LDAMP (C. A. Metzler, A. Mousavi, and R. G. Baraniuk, “Learned d-amp:principled neural network based compressive image recovery,” arxivpreprint arXiv:1704.06625, 2017.)
 https://github.com/ricedsp/D-AMP_Toolbox
