@@ -21,7 +21,21 @@ This software has been tested on Matlab R2018a.
 ## Reconstructing images from CS measurement using BCNNs:
 In the 'restoration' folder, there are four per-trained BCNN models. Each models have different parameters of BCNN. You can find the detailed information of these models in the experimental section of our paper. The 'demo_bcnns_cs.m' file uses these models to implement CS reconstruction. The default image dimension is 64 by 64, and CS measurement ratio is 0.25.
 
-We compared BCNN model with two classical Structured Compressed Sensing method (namely [BCS](https://sites.google.com/site/link2yulei/publications) and [TV](https://www.caam.rice.edu/~optimization/L1/TVAL3/)).
+We compared BCNN model with two classical Structured Compressed Sensing methods and three neural network algorithms.
+
+BCS (L. Yu, C. Wei, and G. Zheng, “Adaptive bayesian estimation with cluster structured sparsity,” Signal Proc. Letters, vol. 22, pp. 2309–2313, 2015.) 
+https://sites.google.com/site/link2yulei/publications 
+
+TV (C. Li, “An efficient algorithm for total variation regularization with applications to the single pixel camera and compressive sensing,” Master’s thesis, Rice University, Houston, Texas, 2009.) https://www.caam.rice.edu/~optimization/L1/TVAL3/
+
+ReconNet (K. Kulkarni, S. Lohit, P. Turaga, R. Kerviche, and A. Ashok, “Reconnet: Non-iterative reconstruction of images from compressively sensed measurements,” in IEEE Conf. on CVPR, June 2016.)
+ https://github.com/KuldeepKulkarni/ReconNet
+
+DR2Net (H. Yao, F. Dai, D. Zhang, Y. Ma, S. Zhang, and Y. Zhang, “Dr2-net: Deep residual reconstruction network for image compressive sensing,” arXiv preprint arXiv:1702.05743, 2017.)
+https://github.com/coldrainyht/caffe dr2/tree/master/DR2
+
+LDAMP (C. A. Metzler, A. Mousavi, and R. G. Baraniuk, “Learned d-amp:principled neural network based compressive image recovery,” arxivpreprint arXiv:1704.06625, 2017.)
+https://github.com/ricedsp/D-AMP_Toolbox
 
 ## Training models:
 The network definition and parameters of the initial random weights of the network are provided in ./ReconNet-master/train/ReconNet_arch.prototxt and the optimization parameters in ./ReconNet-master/train/ReconNet_solver.prototxt.
