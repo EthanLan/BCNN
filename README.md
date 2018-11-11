@@ -20,7 +20,7 @@ This software has been tested on Matlab R2018a.
 ## Reconstructing images from CS measurement using BCNNs:
 In the 'restoration' folder, there are four per-trained BCNN models. Each models have different parameters of BCNN. You can find the detailed information of these models in the experimental section of our paper. 
 
-Run demo_bcnns_cs.m from /restoration folder to use these models to implement CS reconstruction. The default image dimension is 64 by 64, CS measurement ratio is 0.25, and not add any noise. You can reproduce our simulations if you reset parameters as our paper (e.g. image dimension change to 128 by 128, measurement ratio is 0.1, SNR = 8 etc). 
+Run demo_bcnns_cs.m from /restoration folder to use these models to implement CS reconstruction. The default image dimension is 64 by 64, CS measurement ratio is 0.25, and not add any noise. You can reproduce our simulations if you reset parameters as in our paper (e.g. image dimension changes to 128 by 128, measurement ratio is 0.1, SNR = 8 etc). 
 
 In our paper, we compared BCNN model with two classical Structured Compressed Sensing methods and three neural network algorithms as follows.
 
