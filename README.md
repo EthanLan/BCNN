@@ -19,9 +19,9 @@ year = {2018}
 This software has been tested on Matlab R2018a.
 
 ## Reconstructing images from CS measurement using BCNNs:
-The pre-trained models for measurement rates of 0.25, 0.1, 0.04 and 0.01 and the corresponding measurement matrices are provided in the ./ReconNet-master/test/caffemodels and ./ReconNet-master/test/phi directories respectively. ./ReconNet-master/test_images contains the test images (downloaded from two sources: http://dsp.rice.edu/software/DAMP-toolbox and http://see.xidian.edu.cn/faculty/wsdong/NLR_Exps.htm) used to produce the results in tables 1 and 2, and figures 3 and 4 in the paper. The reconstructed images for the different measurement rates are provided in ./ReconNet/test/reconstruction_results.
+In the 'restoration' folder, there are four per-trained BCNN models. Each models have different parameters of BCNN. You can find the detailed information of these models in the experimental section of our paper. The 'demo_bcnns_cs.m' file uses these models to implement CS reconstruction. The default image dimension is 64 by 64, and CS measurement ratio is 0.25.
 
-To reproduce the results, first select a measurement rate by editing ./ReconNet/test/test_everything.m accordingly and run test_everything.m. Please note the time complexity results provided in table 2 of the paper were produced using a NVIDIA GTX 980 GPU and hence may not necessarily match if you are using a different GPU. 
+We compared BCNN model with two classical Structured Compressed Sensing method (namely [BCS](https://sites.google.com/site/link2yulei/publications) and [TV](http://www.caam.rice.edu/∼optimization/L1/TVAL3/)).
 
 ## Training models:
 The network definition and parameters of the initial random weights of the network are provided in ./ReconNet-master/train/ReconNet_arch.prototxt and the optimization parameters in ./ReconNet-master/train/ReconNet_solver.prototxt.
