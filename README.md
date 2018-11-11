@@ -8,7 +8,7 @@ Bayesian Convolutional Neural Networks (BCNNs)is a new Compressed Sensing (CS) r
 If you are using this code, please cite the following paper.
 ```
 @artical{BCNNs,
-author = {Xinjie Lan, Xin Guo, and Kenneth E. Barner},
+author = {Xinjie Lan and Xin Guo and Kenneth E. Barner},
 title = {Bayesian Convolutional Neural Networks for Compressed Sensing Restoration},
 booktitle = {arVix},
 month = {Nov.},
@@ -24,7 +24,6 @@ The pre-trained models for measurement rates of 0.25, 0.1, 0.04 and 0.01 and the
 To reproduce the results, first select a measurement rate by editing ./ReconNet/test/test_everything.m accordingly and run test_everything.m. Please note the time complexity results provided in table 2 of the paper were produced using a NVIDIA GTX 980 GPU and hence may not necessarily match if you are using a different GPU. 
 
 ## Training models:
-### Training ReconNet from scratch:
 The network definition and parameters of the initial random weights of the network are provided in ./ReconNet-master/train/ReconNet_arch.prototxt and the optimization parameters in ./ReconNet-master/train/ReconNet_solver.prototxt.
 
 1. Run generate_train.m from ./ReconNet-master/train/ directory in MATLAB to sample the image patches of size 33 by 33 which act as the training labels, and the corresponding  random Gaussian measurements (using a measurement matrix in ./ReconNet-master/phi directory) which act as training inputs for the network. The training inputs and labels will be saved in hdf5 format in ./ReconNet-master/train/train.h5. Similarly run ./ReconNet-master/train/generate_test.m to generate the validation set which will be saved in test.h5.
