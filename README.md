@@ -41,7 +41,7 @@ https://github.com/ricedsp/D-AMP_Toolbox
 
 ## Training models:
 Run demo_learning.m from /learning folder to train BCNN model using an image dataset from /+image_patches/training91 folder.
-Since ReconNet and DR2Net use this image dataset to train their models, we also uses this dataset to train BCNN model.
+Since ReconNet and DR2Net use this image dataset to train their models, we also use this dataset in order to make a fair comparison.
 
 ## Contact:
 Xinjie Lan, (lxjbit@udel.edu)
