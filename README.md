@@ -1,5 +1,4 @@
 # [Bayesian Convolutional Neural Networks for Compressed Sensing Restoration]
-Xinjie Lan, Xin Guo, and Kenneth E. Barner.
 
 ## Introduction
 Bayesian Convolutional Neural Networks (BCNNs)is a new Compressed Sensing (CS) restoration algorithm that combining Convolutional Neural Networks (CNNs) and Bayesian inference method. In this paper, we show significant improvements in reconstruction results over classical Structured Compressed Sensing (SCS) algorithms and restoration methods based on neural networks, such as ReconNet, DR2Net, and LDAMP. The code provided here helps one to reproduce some of the results presented in the paper.
