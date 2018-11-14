@@ -9,7 +9,7 @@ If you are using this code, please cite the following paper.
 @artical{BCNNs,
 author = {Xinjie Lan and Xin Guo and Kenneth E. Barner},
 title = {Bayesian Convolutional Neural Networks for Compressed Sensing Restoration},
-booktitle = {arVix},
+booktitle = {arVix:1811.04356},
 month = {Nov.},
 year = {2018}
 }
